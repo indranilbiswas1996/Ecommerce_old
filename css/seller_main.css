@@ -1,0 +1,132 @@
+html , body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+.header-container{
+    width: 96%;
+    display: inline-block;
+    background: #2874f0;
+    padding: 3px 2%;
+}
+.logo-container{
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon{
+    width: 100%;
+}
+.name-container {
+    padding: 0 1%;
+    display: inline-block;
+}
+.blank-container {
+    width: 70%;
+    display: inline-block;
+}
+.name-container a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #ffffff;
+}
+.control-container{
+    width: 96%;
+    display: inline-block;
+    background: #ffffff;
+    padding: 2px 2%;
+    border-bottom: 1px solid #cdcdcd;
+}
+.control-option{
+    width: 16.3%;
+    padding: 3px 0;
+    display: inline-block;
+    text-align: center;
+}
+.control-option a{
+    font-family: Roboto;
+    text-decoration: none;
+}
+.sign-out-container{
+    padding: 0 1%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.sign-out-container a{
+    font-size: x-large;
+    color: #ffffff;
+}
+.login-container{
+    width: 60%;
+    padding: 4% 0;
+    margin: 0 auto;
+}
+.login-div{
+    width: 100%;
+    background: #f9f9f9;
+}
+.login-part{
+    width: 49%;
+    display: inline-block;
+}
+.login-part-inner{
+    width: 80%;
+    padding: 10%;
+}
+.login-part-img{
+    width: 100%;
+}
+.headline{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Roboto;
+    text-align: center;
+    padding: 15px 0;
+}
+.login-item{
+    padding: 10px 0;
+}
+.login-textbox{
+    width: 96%;
+    bottom: 1%;
+    border-color: transparent;
+    padding: 5px 1%;
+}
+.login-button{
+    width: 100%;
+    padding: 8px 0;
+    color: #fff;
+    background: #FF9800;
+    border: transparent;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: none;
+}
+.alert ul{
+    margin: 0;
+}
+@media only screen and (max-width: 720px) {
+    /*.logo-container{
+        width: 25%;
+    }
+    .blank-container{
+        width: 5%;
+    }
+    .name-container{
+        font-size: x-small;
+    }
+    .sign-out-container a{
+        font-size: x-small;
+    }*/
+}
